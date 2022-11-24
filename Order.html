@@ -59,9 +59,8 @@
            
             </div>
             <div class="d-flex">
-                <form action="" method="">
+               <form target="_blank" action="https://formsubmit.co/webkingstons@gmail.com" method="POST">
                     <label>
-                        <form target="_blank" action="https://formsubmit.co/webkingstons@gmail.com" method="POST">
                 <span class="fname">First Name <span class="required">*</span></span>
                 <input type="text" name="fname">
               </label>
@@ -110,47 +109,23 @@
                 <span>Email Address <span class="required">*</span></span>
                 <input type="email" name="city"> 
               </label>
-                </form>
                 <div class="Yorder">
                     <table>
                         <tr>
                             <td> Total Order </td>
                             <td id="orderTotal"></td>
                         </tr>
-                        <tr>
-                            <td><button onclick="discountCoupon()">Get Discount</button></td>
-                            <td class="discount" id="discount"></td>
-                        </tr>
-                        <tr>
-                            <td>Delivery Option</td>
-                            <td>
-                                <select onchange="deliveryOption()" name="order-delivery" id="order-delivery">
-                                    <option id="option" value="Select">Select</option>
-                                    <option id="option" value="Delivery">Delivery: R200</option>
-                                    <option id="option" value="Collection">Collection R0</option>
-                                </select>
-                                <p id="demo"></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><button onclick="getTotal()"> Get Total Amount </button></td>
-                            <td id="totalAmount"></td>
-                        </tr>
-                    </table><br>
-                    <div>
-                        <input type="radio" name="dbt" value="cd"><span>
-                <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="" width="50">
-                </span>
-                    </div>
-                    <button onclick="confirmation()" id="confirmation" type="button">Confirm Order</button>
+                      <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>  
 
                 </div>
-
+                </label>
             </div>
         </div>
     </div>
-
-   </form>
 </Body>
 
 </html>
